@@ -1,4 +1,5 @@
 import cloudinary.uploader
+from app.core import cloudinary as cloudinary_config
 from fastapi import UploadFile
 from fastapi.concurrency import run_in_threadpool
 

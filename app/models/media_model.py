@@ -9,7 +9,7 @@ class MediaType(enum.Enum):
     VIDEO = "VIDEO"
 
 class Media(SQLModel, table=True):
-    __tablename__ = "media"
+    __tablename__ = "medias"
 
     id: str = Field(default=None, primary_key=True)
     url: str
